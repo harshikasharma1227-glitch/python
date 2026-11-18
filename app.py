@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 # ---------------- LOAD MODEL ----------------
-MODEL_PATH = os.path.join("model", "fake_news_model.pkl")
+MODEL_PATH = "fake_news_model.pkl"
 
 @st.cache_resource
 def load_model():
